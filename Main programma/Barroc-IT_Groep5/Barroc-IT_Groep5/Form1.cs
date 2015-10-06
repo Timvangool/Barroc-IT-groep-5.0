@@ -15,7 +15,7 @@ namespace Barroc_IT_Groep5
         public Form1()
         {
             InitializeComponent();
+            
         }
-
     }
 }
