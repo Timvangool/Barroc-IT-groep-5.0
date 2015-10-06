@@ -3,3 +3,4 @@
 3. Duidelijke omschrijving.
 4. Mocht je thuis werken geef het aan.
 5. Niet commiten voordat iemand het heeft gecontroleerd.
+6. Werk altijd lokaal
