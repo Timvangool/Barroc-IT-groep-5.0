@@ -1,5 +1,5 @@
 ﻿//#define TIMH
-//#define TIMG
+#define TIMG
 //#define KEVIN
 using System;
 using System.Collections.Generic;
@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Data.SqlTypes;
 using System.Data.Sql;
 using System.Data.SqlClient;
+using System.Windows.Forms;
+using System.Data;
 
 namespace Barroc_IT_Groep5
 {
@@ -63,6 +65,19 @@ namespace Barroc_IT_Groep5
             {
                 closeCon();
             }
+        }
+
+        public void FillDataGridView(DataGridView dgv, string query)
+        {
+            openCon();
+
+            SqlDataAdapter adapter = new SqlDataAdapter(query, getCon());
+            DataSet dt = new DataSet();
+            adapter.Fill(dt);
+            dgv.DataSource = dt.Tables[0];
+
+            closeCon();
+
         }
     }
 
