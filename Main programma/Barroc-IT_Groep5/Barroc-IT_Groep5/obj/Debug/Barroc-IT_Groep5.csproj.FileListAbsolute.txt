@@ -8,13 +8,4 @@ C:\Users\timmie\Desktop\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc_IT_Gr
 C:\Users\timmie\Desktop\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc-IT_Groep5.csproj.GenerateResource.Cache
 C:\Users\timmie\Desktop\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc-IT_Groep5.exe
 C:\Users\timmie\Desktop\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc-IT_Groep5.pdb
-C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Barroc-IT-groep-6\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\bin\Debug\Barroc-IT_Groep5.exe.config
-C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Barroc-IT-groep-6\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\bin\Debug\Barroc-IT_Groep5.exe
-C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Barroc-IT-groep-6\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\bin\Debug\Barroc-IT_Groep5.pdb
-C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Barroc-IT-groep-6\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc-IT_Groep5.csprojResolveAssemblyReference.cache
-C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Barroc-IT-groep-6\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc_IT_Groep5.Form1.resources
-C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Barroc-IT-groep-6\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc_IT_Groep5.frm_Add.resources
-C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Barroc-IT-groep-6\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc_IT_Groep5.Properties.Resources.resources
-C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Barroc-IT-groep-6\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc-IT_Groep5.csproj.GenerateResource.Cache
-C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Barroc-IT-groep-6\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc-IT_Groep5.exe
-C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Barroc-IT-groep-6\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\obj\Debug\Barroc-IT_Groep5.pdb
+C:\Users\Tim\Documents\Radius\2.1\Project testing\Main programma\Barroc-IT_Groep5\Barroc-IT_Groep5\bin\Debug\Barroc-IT_Groep5.exe.config

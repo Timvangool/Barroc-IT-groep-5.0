@@ -17,21 +17,16 @@ namespace Barroc_IT_Groep5
         string conString;
         SqlConnection con;
 
-        /*
-         * The connection string sets the value of the SqlConnection property.
-         * This allows it to acces the database.
-         * 
-         * */
         public SQLDatabaseHandler()
         {
 #if TIMH
-            conString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Tim\Documents\Radius\2.1\Barroc-IT-groep-6\Main programma\Database\Barroc_DB.mdf;Integrated Security=True;Connect Timeout=5";
+            conString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Tim\Documents\Radius\2.1\Barroc-IT-groep-6\Main programma\Database\Barroc_DB.mdf;Integrated Security=True;Connect Timeout=30";
 #endif
 #if TIMG
-            conString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=Q:\Documenten\Barroc_DB.mdf;Integrated Security=True;Connect Timeout=5";
+            conString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=Q:\Documenten\Barroc_DB.mdf;Integrated Security=True;Connect Timeout=30";
 #endif
 #if KEVIN
-            conString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Kevin\Documents\GitHub\Barroc-IT-groep-6\Main programma\Database\Barroc_DB.mdf;Integrated Security=True;Connect Timeout=5";
+            conString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Kevin\Documents\GitHub\Barroc-IT-groep-6\Main programma\Database\Barroc_DB.mdf;Integrated Security=True;Connect Timeout=30";
 #endif
             con = new SqlConnection(conString);
         }
@@ -70,4 +65,5 @@ namespace Barroc_IT_Groep5
             }
         }
     }
+
 }
