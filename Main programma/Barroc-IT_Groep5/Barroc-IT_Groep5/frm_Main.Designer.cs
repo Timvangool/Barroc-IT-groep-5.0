@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.gb_Customers = new System.Windows.Forms.GroupBox();
-            this.btn_C_Create = new System.Windows.Forms.Button();
-            this.btn_C_Edit = new System.Windows.Forms.Button();
             this.btn_C_List = new System.Windows.Forms.Button();
+            this.btn_C_Edit = new System.Windows.Forms.Button();
+            this.btn_C_Create = new System.Windows.Forms.Button();
             this.gb_Invoices = new System.Windows.Forms.GroupBox();
             this.btn_I_List = new System.Windows.Forms.Button();
             this.btn_I_Edit = new System.Windows.Forms.Button();
@@ -63,14 +63,15 @@
             this.gb_Customers.TabStop = false;
             this.gb_Customers.Text = "Customers";
             // 
-            // btn_C_Create
+            // btn_C_List
             // 
-            this.btn_C_Create.Location = new System.Drawing.Point(7, 20);
-            this.btn_C_Create.Name = "btn_C_Create";
-            this.btn_C_Create.Size = new System.Drawing.Size(187, 23);
-            this.btn_C_Create.TabIndex = 0;
-            this.btn_C_Create.Text = "Create";
-            this.btn_C_Create.UseVisualStyleBackColor = true;
+            this.btn_C_List.Location = new System.Drawing.Point(7, 78);
+            this.btn_C_List.Name = "btn_C_List";
+            this.btn_C_List.Size = new System.Drawing.Size(187, 23);
+            this.btn_C_List.TabIndex = 2;
+            this.btn_C_List.Text = "List";
+            this.btn_C_List.UseVisualStyleBackColor = true;
+            this.btn_C_List.Click += new System.EventHandler(this.btn_C_List_Click);
             // 
             // btn_C_Edit
             // 
@@ -80,15 +81,17 @@
             this.btn_C_Edit.TabIndex = 1;
             this.btn_C_Edit.Text = "Edit";
             this.btn_C_Edit.UseVisualStyleBackColor = true;
+            this.btn_C_Edit.Click += new System.EventHandler(this.btn_C_Edit_Click);
             // 
-            // btn_C_List
+            // btn_C_Create
             // 
-            this.btn_C_List.Location = new System.Drawing.Point(7, 78);
-            this.btn_C_List.Name = "btn_C_List";
-            this.btn_C_List.Size = new System.Drawing.Size(187, 23);
-            this.btn_C_List.TabIndex = 2;
-            this.btn_C_List.Text = "List";
-            this.btn_C_List.UseVisualStyleBackColor = true;
+            this.btn_C_Create.Location = new System.Drawing.Point(7, 20);
+            this.btn_C_Create.Name = "btn_C_Create";
+            this.btn_C_Create.Size = new System.Drawing.Size(187, 23);
+            this.btn_C_Create.TabIndex = 0;
+            this.btn_C_Create.Text = "Create";
+            this.btn_C_Create.UseVisualStyleBackColor = true;
+            this.btn_C_Create.Click += new System.EventHandler(this.btn_C_Create_Click);
             // 
             // gb_Invoices
             // 
@@ -110,6 +113,7 @@
             this.btn_I_List.TabIndex = 2;
             this.btn_I_List.Text = "List";
             this.btn_I_List.UseVisualStyleBackColor = true;
+            this.btn_I_List.Click += new System.EventHandler(this.btn_I_List_Click);
             // 
             // btn_I_Edit
             // 
@@ -119,6 +123,7 @@
             this.btn_I_Edit.TabIndex = 1;
             this.btn_I_Edit.Text = "Edit";
             this.btn_I_Edit.UseVisualStyleBackColor = true;
+            this.btn_I_Edit.Click += new System.EventHandler(this.btn_I_Edit_Click);
             // 
             // btn_I_Create
             // 
@@ -128,6 +133,7 @@
             this.btn_I_Create.TabIndex = 0;
             this.btn_I_Create.Text = "Create";
             this.btn_I_Create.UseVisualStyleBackColor = true;
+            this.btn_I_Create.Click += new System.EventHandler(this.btn_I_Create_Click);
             // 
             // gb_Projects
             // 
@@ -149,6 +155,7 @@
             this.btn_P_List.TabIndex = 2;
             this.btn_P_List.Text = "List";
             this.btn_P_List.UseVisualStyleBackColor = true;
+            this.btn_P_List.Click += new System.EventHandler(this.btn_P_List_Click);
             // 
             // btn_P_Edit
             // 
@@ -158,6 +165,7 @@
             this.btn_P_Edit.TabIndex = 1;
             this.btn_P_Edit.Text = "Edit";
             this.btn_P_Edit.UseVisualStyleBackColor = true;
+            this.btn_P_Edit.Click += new System.EventHandler(this.btn_P_Edit_Click);
             // 
             // btn_P_Create
             // 
@@ -167,6 +175,7 @@
             this.btn_P_Create.TabIndex = 0;
             this.btn_P_Create.Text = "Create";
             this.btn_P_Create.UseVisualStyleBackColor = true;
+            this.btn_P_Create.Click += new System.EventHandler(this.btn_P_Create_Click);
             // 
             // gb_Appointments
             // 
@@ -188,6 +197,7 @@
             this.btn_A_List.TabIndex = 2;
             this.btn_A_List.Text = "List";
             this.btn_A_List.UseVisualStyleBackColor = true;
+            this.btn_A_List.Click += new System.EventHandler(this.btn_A_List_Click);
             // 
             // btn_A_Edit
             // 
@@ -197,6 +207,7 @@
             this.btn_A_Edit.TabIndex = 1;
             this.btn_A_Edit.Text = "Edit";
             this.btn_A_Edit.UseVisualStyleBackColor = true;
+            this.btn_A_Edit.Click += new System.EventHandler(this.btn_A_Edit_Click);
             // 
             // btn_A_Create
             // 
@@ -206,6 +217,7 @@
             this.btn_A_Create.TabIndex = 0;
             this.btn_A_Create.Text = "Create";
             this.btn_A_Create.UseVisualStyleBackColor = true;
+            this.btn_A_Create.Click += new System.EventHandler(this.btn_A_Create_Click);
             // 
             // btn_Logout
             // 
@@ -215,6 +227,7 @@
             this.btn_Logout.TabIndex = 4;
             this.btn_Logout.Text = "Logout";
             this.btn_Logout.UseVisualStyleBackColor = true;
+            this.btn_Logout.Click += new System.EventHandler(this.btn_Logout_Click);
             // 
             // frm_Main
             // 
@@ -226,6 +239,8 @@
             this.Controls.Add(this.gb_Projects);
             this.Controls.Add(this.gb_Invoices);
             this.Controls.Add(this.gb_Customers);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frm_Main";
             this.Text = "Barroc-IT";
             this.gb_Customers.ResumeLayout(false);

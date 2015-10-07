@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Barroc_IT_Groep5
 {
-    public partial class btn_Add : Form
+    public partial class frm_Show : Form
     {
-        public btn_Add()
+        public frm_Show()
         {
             InitializeComponent();
         }

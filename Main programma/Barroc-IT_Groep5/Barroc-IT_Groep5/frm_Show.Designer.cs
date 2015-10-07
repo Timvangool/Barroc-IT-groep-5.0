@@ -1,6 +1,6 @@
 ﻿namespace Barroc_IT_Groep5
 {
-    partial class btn_Add
+    partial class frm_Show
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btn_Edit = new System.Windows.Forms.Button();
             this.btn_Delete = new System.Windows.Forms.Button();
-            this.b = new System.Windows.Forms.Button();
+            this.btn_Add = new System.Windows.Forms.Button();
             this.btn_Print = new System.Windows.Forms.Button();
             this.btn_Search = new System.Windows.Forms.Button();
             this.btn_Back = new System.Windows.Forms.Button();
@@ -65,14 +65,14 @@
             this.btn_Delete.Text = "Delete";
             this.btn_Delete.UseVisualStyleBackColor = true;
             // 
-            // b
+            // btn_Add
             // 
-            this.b.Location = new System.Drawing.Point(253, 223);
-            this.b.Name = "b";
-            this.b.Size = new System.Drawing.Size(114, 23);
-            this.b.TabIndex = 3;
-            this.b.Text = "Add";
-            this.b.UseVisualStyleBackColor = true;
+            this.btn_Add.Location = new System.Drawing.Point(253, 223);
+            this.btn_Add.Name = "btn_Add";
+            this.btn_Add.Size = new System.Drawing.Size(114, 23);
+            this.btn_Add.TabIndex = 3;
+            this.btn_Add.Text = "Add";
+            this.btn_Add.UseVisualStyleBackColor = true;
             // 
             // btn_Print
             // 
@@ -108,7 +108,7 @@
             this.textBox1.Size = new System.Drawing.Size(198, 20);
             this.textBox1.TabIndex = 7;
             // 
-            // btn_Add
+            // frm_Show
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -117,11 +117,11 @@
             this.Controls.Add(this.btn_Back);
             this.Controls.Add(this.btn_Search);
             this.Controls.Add(this.btn_Print);
-            this.Controls.Add(this.b);
+            this.Controls.Add(this.btn_Add);
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.btn_Edit);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "btn_Add";
+            this.Name = "frm_Show";
             this.Text = "frm_Show";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -134,7 +134,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btn_Edit;
         private System.Windows.Forms.Button btn_Delete;
-        private System.Windows.Forms.Button b;
+        private System.Windows.Forms.Button btn_Add;
         private System.Windows.Forms.Button btn_Print;
         private System.Windows.Forms.Button btn_Search;
         private System.Windows.Forms.Button btn_Back;
