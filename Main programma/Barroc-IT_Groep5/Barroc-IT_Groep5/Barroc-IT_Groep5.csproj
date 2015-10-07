@@ -44,11 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frm_Edit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frm_Edit.Designer.cs">
+      <DependentUpon>frm_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Login.Designer.cs">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Show.Designer.cs">
+      <DependentUpon>frm_Show.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_Add.cs">
       <SubType>Form</SubType>
@@ -59,8 +71,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLDatabaseHandler.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Edit.resx">
+      <DependentUpon>frm_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Login.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Show.resx">
+      <DependentUpon>frm_Show.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Add.resx">
       <DependentUpon>frm_Add.cs</DependentUpon>
